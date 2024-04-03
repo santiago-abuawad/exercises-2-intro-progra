@@ -12,7 +12,7 @@ int ultimo_caracter = 0; //depues se modifica
 
 if (s1 == '') {
   cout << "0" << "\n";
-}
+} else {
 
 for (int i = 0; i < long_text; ++i) {
   if(s1[i] == ' '){
@@ -21,7 +21,9 @@ for (int i = 0; i < long_text; ++i) {
   }
   ultimo_caracter = i;
 }
+
     cout << ultimo_caracter + 1 << "\n";
+}
 }
 
 void exercise_2(string s1) {
