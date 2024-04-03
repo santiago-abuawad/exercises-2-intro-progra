@@ -9,6 +9,11 @@ void exercise_1(string s1) {
 int long_text = s1.length();
 int ultimo_caracter = 0; //depues se modifica
 // bucle para iterar sobre cada caracter
+
+if (s1 == "") {
+  cout << "0/n";
+}
+
 for (int i = 0; i < long_text; ++i) {
   if(s1[i] == ' '){
     cout << i << "\n";
