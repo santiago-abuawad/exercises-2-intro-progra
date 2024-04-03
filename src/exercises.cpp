@@ -6,13 +6,15 @@
 using namespace std;
 
 void exercise_1(string s1) {
-int long_text = s1.length();
-int ultimo_caracter = 0; //depues se modifica
-// bucle para iterar sobre cada caracter
 
 if(s1.empty()){
   cout << "0" << "\n";
+  return 0;
 }
+
+int long_text = s1.length();
+int ultimo_caracter = 0; //depues se modifica
+// bucle para iterar sobre cada caracter
 
 for (int i = 0; i < long_text; ++i) {
   if(s1[i] == ' '){
