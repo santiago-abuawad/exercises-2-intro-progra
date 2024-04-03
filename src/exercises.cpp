@@ -8,8 +8,7 @@ using namespace std;
 void exercise_1(string s1) {
 
 if(s1.empty()){
-  cout << "0" << "\n";
-  return 0;
+  cout << "0\n";
 }
 
 int long_text = s1.length();
