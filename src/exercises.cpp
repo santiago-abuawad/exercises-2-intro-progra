@@ -16,8 +16,8 @@ for (int i = 0; i < long_text; ++i) {
   }
   ultimo_caracter = i;
 }
-return ultimo_caracter + 1;
-
+    cout << ultimo_caracter + 1 << endl;
+    return 0;
 }
 
 void exercise_2(string s1) {
