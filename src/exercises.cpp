@@ -10,9 +10,9 @@ int long_text = s1.length();
 int ultimo_caracter = 0; //depues se modifica
 // bucle para iterar sobre cada caracter
 
-if (s1 == '') {
+if(s1.empty()){
   cout << "0" << "\n";
-} else {
+}
 
 for (int i = 0; i < long_text; ++i) {
   if(s1[i] == ' '){
@@ -23,7 +23,7 @@ for (int i = 0; i < long_text; ++i) {
 }
 
     cout << ultimo_caracter + 1 << "\n";
-}
+
 }
 
 void exercise_2(string s1) {
