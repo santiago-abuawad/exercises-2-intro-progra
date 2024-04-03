@@ -11,12 +11,12 @@ int ultimo_caracter = 0; //depues se modifica
 // bucle para iterar sobre cada caracter
 for (int i = 0; i < long_text; ++i) {
   if(s1[i] == ' '){
-    cout << i << endl;
+    cout << i << "\n";
 
   }
   ultimo_caracter = i;
 }
-    cout << ultimo_caracter + 1 << endl;
+    cout << ultimo_caracter + 1 << "\n";
 }
 
 void exercise_2(string s1) {
