@@ -1,11 +1,23 @@
 
 #include <cmath>
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 void exercise_1(string s1) {
-  // TODO: YOUR CODE HERE
+int long_text = s1.length();
+int ultimo_caracter = 0; //depues se modifica
+// bucle para iterar sobre cada caracter
+for (int i = 0; i < long_text; ++i) {
+  if(texto[i] == ' '){
+    cout << i << endl;
+
+  }
+  ultimo_caracter = i;
+}
+return ultimo_caracter + 1;
+
 }
 
 void exercise_2(string s1) {
