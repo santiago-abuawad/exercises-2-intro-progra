@@ -9,7 +9,7 @@ void exercise_1(string s1) {
 
 if(s1.empty()){
   cout << "0\n";
-}
+} else {
 
 int long_text = s1.length();
 int ultimo_caracter = 0; //depues se modifica
@@ -24,7 +24,7 @@ for (int i = 0; i < long_text; ++i) {
 }
 
     cout << ultimo_caracter + 1 << "\n";
-
+}
 }
 
 void exercise_2(string s1) {
