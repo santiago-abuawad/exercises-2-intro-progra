@@ -109,11 +109,11 @@ int exercise_6(int n) {
       int suma = 0;
   if(n < 0){
     cout << "0";
-  }else {
+  }
+  else {
     while (n > 0) {
-      int digito = n % 10;
       suma += digito;
-      n /= 10;
+      numero /= 10;
     }
     cout << suma;
   }
