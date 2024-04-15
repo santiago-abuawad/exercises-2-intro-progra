@@ -59,7 +59,7 @@ void exercise_4(int n) {
   for(int i = 2; i <= n; ++i) {
     resultado *= i;
   }
-  return resultado;
+  cout << resultado << "\n";
 }
 
 void exercise_5(int n, int k) {
