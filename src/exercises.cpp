@@ -106,17 +106,16 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-      int suma = 0;
-  if(n < 0){
-    cout << "0";
+int sum = 0;
+if(n == 0){
+  sum = 0;
+} else {
+  while (n > 0) {
+    sum += n % 10;
+    n /= 10;
   }
-  else {
-    while (n > 0) {
-      suma += n % 10;
-      n /= 10;
-    }
-    cout << suma;
-  }
+}
+cout << sum;
 }
 
 void exercise_7(int n) {
