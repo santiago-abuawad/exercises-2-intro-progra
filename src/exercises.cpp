@@ -68,12 +68,13 @@ void exercise_4(int n) {
   } else {
   if(n > 14) {
     cout << "El numero es muy grande. Intentelo de nuevo\n";
-  }
+  } else {
   int resultado = 1;
   for(int i = 2; i <= n; ++i) {
     resultado *= i;
   }
   cout << resultado << "\n";
+  }
   }
 }
 
