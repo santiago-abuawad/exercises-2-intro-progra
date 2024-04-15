@@ -58,8 +58,8 @@ void exercise_3(string s1) {
                  cout << "No cake :(\n";
                  break;
     }
+    index++;
   }
-  index++;
 }
 
 void exercise_4(int n) {
