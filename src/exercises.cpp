@@ -113,7 +113,7 @@ int exercise_6(int n) {
   else {
     while (n > 0) {
       suma += digito;
-      numero /= 10;
+      n /= 10;
     }
     cout << suma;
   }
