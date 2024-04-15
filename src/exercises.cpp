@@ -120,6 +120,7 @@ int exercise_6(int n) {
             n /= 10;
         }
         cout << sum;
+    }
 }
 
 void exercise_7(int n) {
