@@ -49,7 +49,25 @@ void exercise_3(string s1) {
 }
 
 void exercise_4(int n) {
-  // TODO: YOUR CODE HERE
+  if (n == 0){
+    return 1;
+  }
+  if(n == 1){
+    return 1;
+  }
+  if(n < 0){
+    cout << "El número es negativo. Intentelo de nuevo\n";
+    return -1;
+  }
+  if(n > 14) {
+      cout << "El número es muy grande. Intentelo de nuevo\n";
+      return -1;
+  }
+  int resultado = 1;
+  for(int i = 2; i <= n; ++i) {
+    resultado *= i;
+  }
+  return resultado;
 }
 
 void exercise_5(int n, int k) {
