@@ -79,7 +79,26 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  
+  int firtsday = 1;
+  bool firts_day_check = true;
+  //bucle
+  while(firtsday <= k){
+            if (firts_day_check) {
+            for (int i = 1; i < n; ++i) {
+                cout << "   ";
+            }
+            firts_day_check = false;     
+  }
+          for (int i = n; i <= 7 && firtsday <= k; ++i) {
+            if (firtsday < 10) {
+                              cout << " ";
+            }
+                        cout << firtsday++ << " ";
+          }
+                  cout << endl;
+       n = 1;
+    }
+
 }
 
 int exercise_6(int n) {
