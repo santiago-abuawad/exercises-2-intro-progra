@@ -33,20 +33,23 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   int contador = 0;
-      while (contador < 10) {
-        cin >> s1;
-        if (s1 == 1) {
-            cout << "Om-nom-nom :P" << endl;
-        } else if (s1 == 0) {
-            cout << "Sin pastel :(" << endl;
-            break;
-        }
-        contador++;
+  int index  = 0;
+  while (index < s1.length() && contador < 10) {
+    char c = s1[index];
+    if(c == '1') {
+                 cout << "Om-nom-nom :P" << endl;
+                 contador++
     }
+    else if(c == '0') {
+                 cout << "Sin pastel :(" << endl;
+                 break;
+    }
+  }
+  index++;
 }
 
 void exercise_4(int n) {
-
+  // TODO: YOUR CODE HERE
 }
 
 void exercise_5(int n, int k) {
