@@ -32,9 +32,6 @@ void exercise_2(string s1) {
         cout << "";
       }
   string palabra;
-  if(s1.empty()) {
-    cout << "";
-  }
   for(char x : s1) {
     if(x != ' ') {
       palabra += x;
