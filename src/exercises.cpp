@@ -107,9 +107,8 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
 int sum = 0;
-n = abs(n);
-if(n == 0){
-  sum = 0;
+if(n < 0){
+cout << 0;
 } else {
   while (n > 0) {
     sum += n % 10;
