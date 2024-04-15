@@ -32,10 +32,10 @@ void exercise_2(string s1) {
   if(c != ' ') {
     palabra += c;
  } else {
-   cout << "[" << s1 << "]\n" << endl;
-   palabra = ""
+   cout << "[" << s1 << "]\n";
+   palabra = "";
  }
-  cout << "[" << s1 << "]" << endl;
+  cout << "[" << s1 << "]\n";
 }
 
 void exercise_3(string s1) {
