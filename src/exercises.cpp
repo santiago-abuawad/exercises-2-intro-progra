@@ -12,8 +12,7 @@ if(s1.empty()){
 } else {
 
 int long_text = s1.length();
-int ultimo_caracter = 0; //depues se modifica
-// bucle para iterar sobre cada caracter
+int ultimo_caracter = 0
 
 for (int i = 0; i < long_text; ++i) {
   if(s1[i] == ' '){
@@ -28,7 +27,15 @@ for (int i = 0; i < long_text; ++i) {
 }
 
 void exercise_2(string s1) {
-  
+ string palabra;
+ for(char c : s1) {
+  if(c != ' ') {
+    palabra += c;
+ } else {
+   cout << "[" << s1 << "]\n" << endl;
+   palabra = ""
+ }
+  cout << "[" << s1 << "]" << endl;
 }
 
 void exercise_3(string s1) {
@@ -50,10 +57,10 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   if(n < 0){
-    cout << "x";
+    cout << "El numero es negativo. Intentelo de nuevo\n";
   }
   if(n > 14) {
-    cout << "x";
+    cout << "El numero es muy grande. Intentelo de nuevo\n";
   }
   int resultado = 1;
   for(int i = 2; i <= n; ++i) {
@@ -63,11 +70,11 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
+  
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
+  
   return 0;
 }
 
