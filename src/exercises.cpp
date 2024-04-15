@@ -114,12 +114,18 @@ void exercise_7(int n) {
     for (int i = 2; i <= n; ++i) {
         suma += 1.0 / i;
     }
-        cout << suma << endl;
+        cout << suma << "\n";
 
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+      string result = "";
+    for (char c : s) {
+         if (c != ' ') {
+            result += c;
+        }
+    }
+    cout << result << "\n";
 }
 
 void exercise_9(string s) {
