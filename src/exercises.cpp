@@ -30,9 +30,9 @@ for (int i = 0; i < long_text; ++i) {
 void exercise_2(string s1) {
   string palabra;
         if (s1.empty()) {
-        cout << "";
+        return 0;
       }
-      
+
   for(char x : s1) {
     if(x != ' ') {
       palabra += x;
