@@ -106,7 +106,12 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-    
+    int sum = 0;
+    while(n>0){
+      suma = suma + n % 10;
+      n = n/10;
+    }
+    cout << suma << "\n";
 }
 
 void exercise_7(int n) {
@@ -119,17 +124,11 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-      string result = "";
-    for (char c : s) {
-         if (c != ' ') {
-            result += c;
-        }
-    }
-    cout << result << "\n";
+  
 }
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+
 }
 
 int exercise_10(int a, int b) {
