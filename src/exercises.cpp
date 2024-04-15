@@ -28,7 +28,17 @@ for (int i = 0; i < long_text; ++i) {
 }
 
 void exercise_2(string s1) {
-  
+  string palabra;
+  for(char x : s1) {
+    if(c != ' ') {
+      palabra += x;
+    }else {
+      cout << "[" << palabra << "]" << endl;
+      palabra = "";
+    }
+  }
+      cout << "[" << palabra << "]" << endl;
+
 }
 
 void exercise_3(string s1) {
