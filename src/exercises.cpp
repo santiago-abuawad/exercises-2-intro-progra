@@ -114,8 +114,8 @@ cout << 0;
     sum += n % 10;
     n /= 10;
   }
+  cout << sum;
 }
-cout << sum;
 }
 
 void exercise_7(int n) {
