@@ -55,7 +55,7 @@ void exercise_3(string s1) {
                  contador++;
     }
     else if(c == '0') {
-                 cout << "Sin pastel :(\n";
+                 cout << "No cake :(\n";
                  break;
     }
   }
