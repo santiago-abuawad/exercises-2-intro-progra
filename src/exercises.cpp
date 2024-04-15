@@ -110,7 +110,7 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-      double suma = 1.0;
+      double suma = 0;
     for (int i = 2; i <= n; ++i) {
         suma += 1.0 / i;
     }
