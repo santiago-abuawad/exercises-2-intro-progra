@@ -106,7 +106,16 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
+  if(n < 0){
+    cout << "0"
+  }else {
+    while (n > 0) {
+      int digito = numero % 10;
+      suma += digito;
+      n /= 10;
+    }
+    cout << suma;
+  }
   return 0;
 }
 
