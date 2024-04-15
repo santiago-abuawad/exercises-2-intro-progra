@@ -106,6 +106,7 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
+      int suma = 0;
   if(n < 0){
     cout << "0";
   }else {
