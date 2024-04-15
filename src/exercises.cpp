@@ -30,7 +30,7 @@ for (int i = 0; i < long_text; ++i) {
 void exercise_2(string s1) {
   string palabra;
         if (s1.empty()) {
-        return 0;
+        return "";
       }
 
   for(char x : s1) {
