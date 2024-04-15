@@ -106,9 +106,6 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-    int n;
-    cin >> n;
-
     int sum = 0;
     if (n < 0) {
         cout << 0;
