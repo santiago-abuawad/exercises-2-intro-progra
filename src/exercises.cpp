@@ -65,7 +65,7 @@ void exercise_3(string s1) {
 void exercise_4(int n) {
   if(n < 0){
     cout << "El numero es negativo. Intentelo de nuevo\n";
-  }
+  } else {
   if(n > 14) {
     cout << "El numero es muy grande. Intentelo de nuevo\n";
   }
@@ -74,6 +74,7 @@ void exercise_4(int n) {
     resultado *= i;
   }
   cout << resultado << "\n";
+  }
 }
 
 void exercise_5(int n, int k) {
