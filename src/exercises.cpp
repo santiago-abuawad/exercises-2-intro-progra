@@ -106,23 +106,16 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-      n = abs(n);
-    int sum = 0;
-    if (n < 0) {
-        cout << 0;
-    } else if (n == 0) {
-        cout << 0;
-    } else {
-        while (n > 0) {
-            sum += n % 10;
-            n /= 10;
-        }
-        cout << sum;
-    }
+    
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+      double suma = 1.0;
+    for (int i = 2; i <= n; ++i) {
+        suma += 1.0 / i;
+    }
+        cout << suma << endl;
+
 }
 
 void exercise_8(string s) {
