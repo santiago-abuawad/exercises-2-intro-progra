@@ -30,8 +30,8 @@ for (int i = 0; i < long_text; ++i) {
 void exercise_2(string s1) {
   string palabra;
         if (s1.empty()) {
-      cout << "hola";
-      }
+      cout << "x";
+      } else {
 
   for(char x : s1) {
     if(x != ' ') {
@@ -42,7 +42,7 @@ void exercise_2(string s1) {
     }
   }
       cout << "[" << palabra << "]" << endl;
-
+      }
 }
 
 void exercise_3(string s1) {
