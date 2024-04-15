@@ -93,9 +93,13 @@ void exercise_5(int n, int k) {
             if (firtsday < 10) {
                               cout << " ";
             }
-                        cout << firtsday++ << " ";
+            cout << firtsday;
+            if(i < 7 || firtsday == k) {
+            cout << " ";
+            }
+            firtsday++;
           }
-                  cout << endl;
+      cout << endl;
        n = 1;
     }
 
