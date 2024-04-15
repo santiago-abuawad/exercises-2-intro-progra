@@ -12,7 +12,8 @@ if(s1.empty()){
 } else {
 
 int long_text = s1.length();
-int ultimo_caracter = 0
+int ultimo_caracter = 0; //depues se modifica
+// bucle para iterar sobre cada caracter
 
 for (int i = 0; i < long_text; ++i) {
   if(s1[i] == ' '){
@@ -27,15 +28,7 @@ for (int i = 0; i < long_text; ++i) {
 }
 
 void exercise_2(string s1) {
- string palabra;
- for(char c : s1) {
-  if(c != ' ') {
-    palabra += c;
- } else {
-   cout << "[" << s1 << "]\n";
-   palabra = "";
- }
-  cout << "[" << s1 << "]\n";
+  
 }
 
 void exercise_3(string s1) {
@@ -74,7 +67,7 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  
+  // TODO: YOUR CODE HERE
   return 0;
 }
 
