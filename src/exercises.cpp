@@ -107,7 +107,7 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   if(n < 0){
-    cout << "0"
+    cout << "0";
   }else {
     while (n > 0) {
       int digito = numero % 10;
