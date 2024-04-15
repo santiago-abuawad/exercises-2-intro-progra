@@ -107,16 +107,12 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
       int suma = 0;
-  if(n > 0){
-    cout << "0";
-  }else {
     while (n > 0) {
       int digito = n % 10;
       suma += digito;
       n /= 10;
     }
     cout << suma;
-  }
   return 0;
 }
 
