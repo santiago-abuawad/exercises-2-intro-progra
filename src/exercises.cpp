@@ -37,11 +37,11 @@ void exercise_3(string s1) {
   while (index < s1.length() && contador < 10) {
     char c = s1[index];
     if(c == '1') {
-                 cout << "Om-nom-nom :P\n"<<;
+                 cout << "Om-nom-nom :P\n";
                  contador++;
     }
     else if(c == '0') {
-                 cout << "Sin pastel :(\n"<<;
+                 cout << "Sin pastel :(\n";
                  break;
     }
   }
