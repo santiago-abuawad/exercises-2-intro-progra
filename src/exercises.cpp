@@ -50,10 +50,10 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   if(n < 0){
-    return "El numero es negativo. Intentelo de nuevo\n";
+    cout << "El numero es negativo. Intentelo de nuevo\n";
   }
   if(n > 14) {
-      return "El numero es muy grande. Intentelo de nuevo\n";
+    cout << "El numero es muy grande. Intentelo de nuevo\n";
   }
   int resultado = 1;
   for(int i = 2; i <= n; ++i) {
