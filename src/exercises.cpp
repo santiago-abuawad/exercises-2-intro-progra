@@ -38,7 +38,7 @@ void exercise_3(string s1) {
     char c = s1[index];
     if(c == '1') {
                  cout << "Om-nom-nom :P" << endl;
-                 contador++
+                 contador++;
     }
     else if(c == '0') {
                  cout << "Sin pastel :(" << endl;
