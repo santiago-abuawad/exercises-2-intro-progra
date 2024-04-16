@@ -168,7 +168,11 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-  // TODO: YOUR CODE HERE
+      int count = 0;
+      for (int num = 2; count < n; num++) {
+           cout << num << " ";
+            count++;
+}
 }
 
 void exercise_18_19(int debut, int fin) {
