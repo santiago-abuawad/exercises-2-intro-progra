@@ -166,7 +166,7 @@ if(n == 0){
  if (firstDigit == lastDigit) {
         return "Es palindrome";
     } else {
-        return "No es palindrome"
+        return "No es palindrome";
     }
 }
 
