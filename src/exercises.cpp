@@ -164,7 +164,7 @@ if(n == 0){
         firstDigit /= 10;
     }    
  if (firstDigit == lastDigit) {
-        cout << "Es palindrome" << firstDigit << endl;
+        cout << "Es palindrome" << endl;
     } else {
         cout << "No es palindrome" << endl;
     }
