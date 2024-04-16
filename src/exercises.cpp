@@ -173,7 +173,7 @@ if(n == 0){
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_16(int divident, int divider) {
@@ -189,5 +189,21 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+     if (debut < 0) {
+        return 0;
+    }
+    for(int i = debut; i <= fin ; i++) {
+      int num = i;
+      int iterations = 0;
+      while(num != 0) {
+        if(num % 3 == 0) {
+            num += 4;
+      } else if (num % 4 == 0) {
+        num /= 2;
+      } else {
+        num -= 1;
+      }
+        iterations++;
+    }
+      cout << i << " -> " << iterations << endl;
 }
