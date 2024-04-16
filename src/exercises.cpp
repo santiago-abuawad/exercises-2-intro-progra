@@ -156,7 +156,7 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
 if(n == 0){
-  cout << "Es palindrome";
+  return "Es palindrome";
 }else {
       int lastDigit = n % 10;
       int firstDigit = n;
@@ -164,9 +164,9 @@ if(n == 0){
         firstDigit /= 10;
     }    
  if (firstDigit == lastDigit) {
-        cout << "Es palindrome" << endl;
+        return "Es palindrome";
     } else {
-        cout << "No es palindrome" << endl;
+        return "No es palindrome"
     }
 }
 
