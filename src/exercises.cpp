@@ -155,8 +155,21 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  return "";
+if(n == 0){
+  cout << "Es palindrome";
+}else {
+      int lastDigit = num % 10;
+      int firstDigit = num;
+       while (firstDigit >= 10) {
+        firstDigit /= 10;
+    }    
+ if (firstDigit == lastDigit) {
+        cout << "Es palindrome" << firstDigit << endl;
+    } else {
+        cout << "No es palindrome" << endl;
+    }
+}
+
 }
 
 void exercise_15(int decimal) {
@@ -164,7 +177,7 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
+
 }
 
 void exercise_17(int n) {
