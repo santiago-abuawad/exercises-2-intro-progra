@@ -205,7 +205,7 @@ void exercise_18_19(int debut, int fin) {
       }
         iterations++;
     }
-      cout << i << " -> " << iterations << endl;
+      cout << i << "->" << iterations << endl;
     }
     }
 }
