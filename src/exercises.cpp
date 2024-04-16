@@ -190,8 +190,8 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
      if (debut < 0) {
-        cout << "";
-    }
+        return 0;
+    } else {
     for(int i = debut; i <= fin ; i++) {
       int num = i;
       int iterations = 0;
@@ -206,4 +206,5 @@ void exercise_18_19(int debut, int fin) {
         iterations++;
     }
       cout << i << " -> " << iterations << endl;
+    }
 }
