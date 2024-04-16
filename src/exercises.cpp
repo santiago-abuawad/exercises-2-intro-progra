@@ -158,8 +158,8 @@ string exercise_14(int n) {
 if(n == 0){
   cout << "Es palindrome";
 }else {
-      int lastDigit = num % 10;
-      int firstDigit = num;
+      int lastDigit = n % 10;
+      int firstDigit = n;
        while (firstDigit >= 10) {
         firstDigit /= 10;
     }    
