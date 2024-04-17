@@ -180,8 +180,8 @@ void exercise_16(int divident, int divider) {
 if(divident == 0) {
   cout << "";
 }
-int cosciente = divident / divider
-int res = divident % divider
+int cosciente = divident / divider;
+int res = divident % divider;
 cout << cosciente << endl;
 cout << res << endl;
 }
