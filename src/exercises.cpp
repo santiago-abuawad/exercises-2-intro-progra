@@ -173,6 +173,17 @@ if(n == 0){
 }
 
 void exercise_15(int decimal) {
+  int binarynumber[32];
+  int i = 0;
+  while (decimal > 0) {
+    binarynumber[i] = n % 2;
+    n = n / 2;
+    i++
+  }
+
+      for (int j = i - 1; j >= 0; j--)
+        cout << binarynumber[j];
+}
   
 }
 
