@@ -173,6 +173,9 @@ if(n == 0){
 }
 
 void exercise_15(int decimal) {
+  if(decimal == 0) {
+    cout << "";
+  } else {
   int binarynumber[32];
   int i = 0;
   while (decimal > 0) {
@@ -184,6 +187,7 @@ void exercise_15(int decimal) {
       for (int j = i - 1; j >= 0; j--){
         cout << binarynumber[j] << endl;
 }
+  }
 }
 
 void exercise_16(int divident, int divider) {
