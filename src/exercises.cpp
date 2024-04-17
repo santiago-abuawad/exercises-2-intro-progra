@@ -177,7 +177,7 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-if(divident == 0) {
+if(divider == 0) {
   cout << "";
 }
 int cosciente = divident / divider;
