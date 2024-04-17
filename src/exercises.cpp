@@ -176,7 +176,7 @@ void exercise_15(int decimal) {
   int binarynumber[32];
   int i = 0;
   while (decimal > 0) {
-    binarynumber[i] = n % 2;
+    binarynumber[i] = decimal % 2;
     n = n / 2;
     i++;
   }
