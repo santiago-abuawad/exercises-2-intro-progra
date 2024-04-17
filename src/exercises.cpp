@@ -182,7 +182,7 @@ if(divider == 0) {
 }
 int cosciente = divident / divider;
 int res = divident % divider;
-cout << cosciente << endl;
+cout << cosciente << " ";
 cout << res << endl;
 }
 
