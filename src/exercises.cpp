@@ -174,7 +174,7 @@ if(n == 0){
 
 void exercise_15(int decimal) {
   if(decimal == 0) {
-    cout << "";
+    cout << "0\n";
   } else {
   int binarynumber[32];
   int i = 0;
