@@ -181,11 +181,21 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-      int count = 0;
-      for (int num = 2; count < n; num++) {
-           cout << num << " ";
-            count++;
-}
+  int contador = 0;
+  int num = 2;
+  while (contador < n) {
+    int divisores = 0;
+      for (int i = 1; i <= num; ++i) {
+        if (num % i == 0) {
+            ++divisores;
+          }
+        }
+        if (divisores == 2) {
+            cout << num << " ";
+            ++contador;
+        }
+        ++num;
+    }
 }
 
 void exercise_18_19(int debut, int fin) {
