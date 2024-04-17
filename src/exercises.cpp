@@ -131,9 +131,9 @@ void exercise_8(string s) {
     int ult = s.length() - 1;
     char endletter = s[ult];
     if(firtsletter == endletter) {
-        cout << "YES";
+        cout << "YES" << endl;
     } else {
-        cout << "NO";
+        cout << "NO"; << endl;
     }
   }
 
