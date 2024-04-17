@@ -124,20 +124,19 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  if(s == ""){
+     if(s == ""){
     cout << "YES" << endl;
   } else {
-    int size = s.length();
-    int firtsletter = s[0];
-    for(int i = 0;0 <= s.length()+1 ; i+1) {
-      int letter = s[i];
-    }
-    if(letter == firtsletter) {
-      cout << "YES" << endl;
+    char firtsletter = s[0];
+    int ult = s.length() - 1;
+    char endletter = s[ult];
+    if(firtsletter == endletter) {
+        cout << "YES";
     } else {
-      cout << "NO" << endl;
+        cout << "NO";
     }
   }
+
 }
 
 void exercise_9(string s) {
