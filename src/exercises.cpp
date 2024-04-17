@@ -128,9 +128,9 @@ void exercise_8(string s) {
     cout << "YES" << endl;
   } else {
     int size = s.length();
-    int firtsletter = s[0]
+    int firtsletter = s[0];
     for(int i = 0;0 <= s.length()+1 ; i+1) {
-      int letter = s[i]
+      int letter = s[i];
     }
     if(letter == firtsletter) {
       cout << "YES" << endl;
