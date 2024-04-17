@@ -177,7 +177,13 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-
+if(divident == 0) {
+  cout << "";
+}
+int cosciente = divident / divider
+int res = divident % divider
+cout << cosciente << endl;
+cout << res << endl;
 }
 
 void exercise_17(int n) {
