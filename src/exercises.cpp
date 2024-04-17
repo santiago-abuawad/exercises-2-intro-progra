@@ -181,10 +181,9 @@ void exercise_15(int decimal) {
     i++;
   }
 
-      for (int j = i - 1; j >= 0; j--)
+      for (int j = i - 1; j >= 0; j--){
         cout << binarynumber[j];
 }
-  
 }
 
 void exercise_16(int divident, int divider) {
