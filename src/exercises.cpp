@@ -185,8 +185,9 @@ void exercise_15(int decimal) {
   }
 
       for (int j = i - 1; j >= 0; j--){
-        cout << binarynumber[j] << endl;
+        cout << binarynumber[j];
 }
+cout << "\n";
   }
 }
 
