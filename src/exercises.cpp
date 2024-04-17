@@ -115,11 +115,11 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-      double suma = 0.0;
-    for (int i = 2; i <= n; ++i) {
-        suma += 1.0 / i;
-    }
-        cout << suma << "\n";
+   double res = 0;
+   for(int i = 1; i <= n ; i++) {
+    res += pow(-1,i+1)/i;
+   }
+   cout << res << endl;
 
 }
 
