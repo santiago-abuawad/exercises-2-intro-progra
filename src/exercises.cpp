@@ -133,7 +133,7 @@ void exercise_8(string s) {
     if(firtsletter == endletter) {
         cout << "YES" << endl;
     } else {
-        cout << "NO"; << endl;
+        cout << "NO" << endl;
     }
   }
 
