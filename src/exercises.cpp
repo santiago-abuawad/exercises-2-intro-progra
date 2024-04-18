@@ -172,16 +172,35 @@ int exercise_10(int a, int b) {
 }
 
 void exercise_11() {
-  // TODO: YOUR CODE HERE
+    double num=1;
+    cout<< "U0 = "<<num<<endl;
+    cout<< "U"<<num<<" = "<<num<<endl;
+    for (int i=1; i <10; i++){
+        num=num /(i+1);
+        int n;
+        n= i+1;
+       cout<< "U"<<n<<" = "<<num<<endl; 
+    }
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+    double num=1;
+    cout<< "U"<<num<<" = "<<num<<" "<<"V"<<num<<" = "<<"1"<<endl;
+    for (int i=1; i <10; i++){
+        num=num /(i+1);
+        int n;
+        n= i+1;
+       cout<< "U"<<n<<" = "<<num<<" "<<"V"<<n<<" = "<<"1"<<endl; 
+    }
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
-  return 0;
+  int x=0;
+  int i;
+  for (i = 1; i<= n ; ++i){
+    x += pow(i,k); //The pow() function returns the result of the first argument raised to the power of the second argument. This function is defined in the cmath header file.
+   } 
+  return x;
 }
 
 string exercise_14(int n) {
