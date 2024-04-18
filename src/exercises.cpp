@@ -140,9 +140,7 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
-if(s1.empty()){
-  cout << "";
-} else {
+
 int longtext = s.length();
 int fval = 0;
  for (int i = 0; i < longtext; ++i) {
@@ -160,7 +158,7 @@ if(fval == -2) {
 if(fval == 0) {
     cout << -2 << endl;
 }
-}
+
 }
 
 int exercise_10(int a, int b) {
